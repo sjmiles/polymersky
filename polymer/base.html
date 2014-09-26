@@ -1,11 +1,5 @@
 <script>
 
-  var attributes = function(node, attr$) {
-    attr$.split(' ').forEach(function(a) {
-      node.setAttribute(a, '');
-    });
-  };
-  
   Base = {
     // (semi-)pluggable features for Base
     features: [],
@@ -23,5 +17,5 @@
       prototype._template = document.currentScript.ownerDocument.querySelector('template');
     }
   };
-  
+
 </script>
